@@ -19,7 +19,7 @@ Here, $f'(x)$ is the gradient of function $f$ at $x$. The gradient of a one-dime
 
 Next, find a constant
 
-여기서 $f'(x)$는 $x$에서 함수 $f$의 그래디언트 입니다. 알차원 함수의 그래디언트는 derivative라고도하는 스칼라입니다.
+여기서 $f'(x)$는 $x$에서 함수 $f$의 그래디언트 입니다. 1차원 함수의 그래디언트는 derivative라고도하는 스칼라입니다.
 
 다음으로,
 
@@ -29,8 +29,8 @@ so that we can replace $\epsilon$ with
 $-\eta f'(x)$
 and get
 
-$\left|\eta f'(x)\right|$를 충분히 작게 만들기 위해 상수를 찾습니다.
-그래서 우리는 $\epsilon$을 다음과 같이 대체 할 수 있습니다.
+$\left|\eta f'(x)\right|$를 충분히 작게 만들기 위해 상수 $\eta>0$를 찾습니다.
+그래서 우리는 $\epsilon$을 $-\eta f'(x)$ 대체 할 수 있습니다.
 $-\eta f'(x)$
 그리고 
 
@@ -316,3 +316,4 @@ SGD에서의 독립 변수의 반복적 인 궤적은 기울기 강하에서보�
 ## Scan the QR Code to [Discuss](https://discuss.mxnet.io/t/2372)
 
 ![](../img/qr_gd-sgd.svg)
+
